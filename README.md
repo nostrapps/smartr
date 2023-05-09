@@ -72,7 +72,7 @@ This repository demonstrates how to create a simple Solidity state machine using
    }
    ```
 
-2. Modify `stateMachine.js` to reference the correct contract file and include any additional functions needed for your specific use case.
+2. Modify ./fastr.js` to reference the correct contract file and include any additional functions needed for your specific use case.
 
 3. Initialize the Git repository and create the initial state and ledger files:
 
@@ -85,10 +85,10 @@ This repository demonstrates how to create a simple Solidity state machine using
    git commit -m "Initial state and ledger"
    ```
 
-4. Run the `stateMachine.js` file to execute a function from the smart contract and update the state and ledger:
+4. Run the ./fastr.js` file to execute a function from the smart contract and update the state and ledger:
 
    ```bash
-   node stateMachine.js
+   ./fastr.js
    ```
 
 ## Contributing
