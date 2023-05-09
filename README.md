@@ -27,6 +27,17 @@ This repository demonstrates how to create a simple Solidity state machine using
 
 **Please note**: This example is for educational purposes only and is not suitable for use in production environments. For real-world applications, consider using a more robust solution.
 
+## Design
+
+The main exe is `smartr.js` this will operate on one or more data directories.
+
+Each data directory contains
+- ledger.json
+- state.json
+- contract.sol
+
+Future versions will allow and quickjs contracts
+
 ## Features
 
 - Solidity smart contract for a simple state machine
@@ -88,7 +99,7 @@ This repository demonstrates how to create a simple Solidity state machine using
 4. Run the ./fastr.js` file to execute a function from the smart contract and update the state and ledger:
 
    ```bash
-   ./fastr.js
+   ./smart.js [params]
    ```
 
 ## Contributing
