@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs')
 const solc = require('solc')
 const git = require('simple-git')()
