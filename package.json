@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nostrapps/smartr.git"
@@ -22,5 +21,9 @@
     "url": "https://github.com/nostrapps/smartr/issues"
   },
   "homepage": "https://github.com/nostrapps/smartr#readme",
-  "dependencies": {}
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "simple-git": "^3.18.0",
+    "solc": "^0.8.19"
+  }
 }

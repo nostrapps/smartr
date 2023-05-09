@@ -3,8 +3,8 @@ const solc = require('solc')
 const git = require('simple-git')()
 
 const contractPath = './Example.sol'
-const statePath = './state.json'
-const ledgerPath = './ledger.json'
+const statePath = './data/state.json'
+const ledgerPath = './data/ledger.json'
 
 // Compile the Solidity contract
 const compileContract = () => {
@@ -66,8 +66,9 @@ const executeFunction = (functionName, ...args) => {
   saveStateAndLedger(state, ledger)
 
   // Commit the changes to the Git repository
-  git.add([statePath, ledgerPath]).commit('Update state and ledger')
+  // git.add([statePath, ledgerPath]).commit('Update state and ledger')
 }
 
 // Example usage
+let params = process.argv[2] || 21
 executeFunction('setValue', 42)
