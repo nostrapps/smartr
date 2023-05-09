@@ -78,9 +78,10 @@ This repository demonstrates how to create a simple Solidity state machine using
 
    ```bash
    git init
-   echo '{"value": 0}' > state.json
-   echo '[]' > ledger.json
-   git add state.json ledger.json
+   mdkir data
+   echo '{"value": 0}' > data/state.json
+   echo '[]' > data/ledger.json
+   git add data/state.json data/ledger.json
    git commit -m "Initial state and ledger"
    ```
 
