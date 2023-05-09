@@ -21,7 +21,10 @@
 [![npm](https://img.shields.io/npm/dw/smartr.svg)](https://npmjs.com/package/smartr)
 [![Github Stars](https://img.shields.io/github/stars/nostrapps/smartr.svg)](https://github.com/nostrapps/smartr/)
 
+
 # Solidity State Machine with Git
+
+![image](https://github.com/nostrapps/smartr/assets/65864/e8e253e5-c385-466e-a0ed-55a753faf4e7)
 
 This repository demonstrates how to create a simple Solidity state machine using Git for state management, smart contract storage, and ledger tracking in JavaScript. The example provides a basic setup for implementing a state machine using a Solidity smart contract, where the contract's state and transaction ledger are stored as JSON files and managed using Git commits.
 
