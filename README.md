@@ -86,7 +86,7 @@ Future versions will allow and quickjs contracts
    }
    ```
 
-2. Modify ./fastr.js` to reference the correct contract file and include any additional functions needed for your specific use case.
+2. Modify ./smartr.js` to reference the correct contract file and include any additional functions needed for your specific use case.
 
 3. Initialize the Git repository and create the initial state and ledger files:
 
@@ -99,7 +99,7 @@ Future versions will allow and quickjs contracts
    git commit -m "Initial state and ledger"
    ```
 
-4. Run the ./fastr.js` file to execute a function from the smart contract and update the state and ledger:
+4. Run the ./smartr.js` file to execute a function from the smart contract and update the state and ledger:
 
    ```bash
    ./smart.js [params]
