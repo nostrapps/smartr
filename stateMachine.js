@@ -2,7 +2,7 @@ const fs = require('fs')
 const solc = require('solc')
 const git = require('simple-git')()
 
-const contractPath = './Example.sol'
+const contractPath = './data/Example.sol'
 const statePath = './data/state.json'
 const ledgerPath = './data/ledger.json'
 
@@ -12,7 +12,7 @@ const compileContract = () => {
   const output = JSON.parse(solc.compile(JSON.stringify({
     language: 'Solidity',
     sources: {
-      'Example.sol': {
+      './data/Example.sol': {
         content: input
       }
     },
@@ -25,7 +25,7 @@ const compileContract = () => {
     }
   })))
 
-  return output.contracts['Example.sol'].Example
+  return output.contracts['./data/Example.sol'].Example
 }
 
 // Load the state and ledger
@@ -70,5 +70,5 @@ const executeFunction = (functionName, ...args) => {
 }
 
 // Example usage
-let params = process.argv[2] || 21
-executeFunction('setValue', 42)
+const params = process.argv[2] || 21
+executeFunction('setValue', params)

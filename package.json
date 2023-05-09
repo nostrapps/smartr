@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nostrapps/smartr#readme",
   "dependencies": {
+    "ethers": "^6.3.0",
     "fs": "^0.0.1-security",
     "simple-git": "^3.18.0",
     "solc": "^0.8.19"

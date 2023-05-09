@@ -56,7 +56,7 @@ This repository demonstrates how to create a simple Solidity state machine using
 
 ## Usage
 
-1. Create a Solidity smart contract (e.g., `Example.sol`) with the desired state machine logic.
+1. Create a Solidity smart contract (e.g., `./data/Example.sol`) with the desired state machine logic.
 
    Example:
 
